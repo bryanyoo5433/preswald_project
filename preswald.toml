@@ -1,15 +1,15 @@
 [project]
-title = "Preswald Project"
+title = "Stock Portfolio Dashboard by Bryan Yoo"
 version = "0.1.0"
 port = 8501
 slug = "my-project-266451"  
 entrypoint = "hello.py"    
 
 [branding]
-name = "Preswald Project"
+name = "Stock Portfolio"
 logo = "images/logo.png"
 favicon = "images/favicon.ico"
-primaryColor = "#F89613"
+primaryColor = "#5b8064"
 
 [data.sample_csv]
 type = "csv"

@@ -1,9 +1,9 @@
 import preswald
-from preswald import text, plotly, connect, get_df, table, slider, selectbox, button
+from preswald import text, plotly, connect, get_df, table, slider, selectbox, button, sidebar
 import pandas as pd
 import plotly.express as px
 import numpy as np
-
+sidebar()
 connect()
 df = get_df('portfolio_csv')
 
@@ -14,7 +14,7 @@ text("# 📊 Stock Portfolio Dashboard")
 text("Created by Bryan Yoo")
 
 
-text("# 🔍 Slider Test – Show First N Rows")
+
 
 # Slider to choose number of rows
 num_rows = slider("Select number of rows to display", min_val=1, max_val=50, default=5)
