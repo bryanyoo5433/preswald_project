@@ -19,7 +19,3 @@ Created using [Preswald](https://github.com/StructuredLabs/preswald) to demonstr
 - **Scatter Plot:** Quantity vs. Close Price by Sector
 - **Pie Chart:** Stock weight distribution
 - **Bar Chart:** Sector weight distribution
-
-## ⚠️ Known Issues with Preswald (Platform Limitations)
-
-### 🐞 1. `np.float_` Serialization Error
